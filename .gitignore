@@ -2,7 +2,6 @@
 build/*
 !build/disassembly_bundle.json
 target_arm/build/
-*.exe
 *.elf
 *.o
 *.a
@@ -19,3 +18,4 @@ studio/src-tauri/target/
 Thumbs.db
 *.swp
 .vscode/
+!F1-SECU-WCET-Verifier.exe
