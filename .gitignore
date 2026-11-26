@@ -1,5 +1,21 @@
-build/
-*.ll
-*.bc
-*.o
+# Build outputs & binaries
+build/*
+!build/disassembly_bundle.json
+target_arm/build/
+*.exe
 *.elf
+*.o
+*.a
+*.so
+*.dll
+
+# Frontend & Tauri dependencies / build caches
+studio/node_modules/
+studio/dist/
+studio/src-tauri/target/
+
+# OS & editor junk
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
